@@ -257,18 +257,15 @@ button:focus-visible{outline:3px solid #d08a52;outline-offset:3px}
         <path d="M104 118 C97 158 90 198 87 234 M216 118 C223 158 230 198 233 234" stroke="#c0935a" stroke-opacity=".45" stroke-width="2" fill="none" stroke-linecap="round"/>
 
         <!-- рожки -->
-        <path d="M127 60 C121 55 116 47 116 40 C116 35 120 32 124 34 C130 38 136 49 138 60 Z" fill="url(#horn)" stroke="#8f6c42" stroke-width="1.8" stroke-linejoin="round"/>
-        <path d="M193 60 C199 55 204 47 204 40 C204 35 200 32 196 34 C190 38 184 49 182 60 Z" fill="url(#horn)" stroke="#8f6c42" stroke-width="1.8" stroke-linejoin="round"/>
-        <path d="M119 45 C122 41 125 39 128 41 M201 45 C198 41 195 39 192 41 M118 38 C120 36 122 35 124 36 M202 38 C200 36 198 35 196 36" stroke="#8f6c42" stroke-width="1.3" fill="none" opacity=".9"/>
-        <ellipse cx="121" cy="36" rx="3.6" ry="2.8" transform="rotate(-28 121 36)" fill="#7d5c37" opacity=".6"/>
-        <ellipse cx="199" cy="36" rx="3.6" ry="2.8" transform="rotate(28 199 36)" fill="#7d5c37" opacity=".6"/>
-        <path d="M139 58 C137 48 132 40 126 34 L123 38 C129 44 134 51 136 59 Z" fill="#9c7a4e" opacity=".25"/>
+        <path d="M127 60 C121 55 116 47 116 40 C116 35 120 32 124 34 C130 38 136 49 138 60 Z" fill="url(#horn)" stroke="#8f6c42" stroke-width="1.6" stroke-linejoin="round"/>
+        <path d="M193 60 C199 55 204 47 204 40 C204 35 200 32 196 34 C190 38 184 49 182 60 Z" fill="url(#horn)" stroke="#8f6c42" stroke-width="1.6" stroke-linejoin="round"/>
+        <path d="M137 58 C135 48 130 39 125 34" stroke="#fff6e2" stroke-width="1.6" fill="none" opacity=".55" stroke-linecap="round"/>
+        <path d="M183 58 C185 48 190 39 195 34" stroke="#fff6e2" stroke-width="1.6" fill="none" opacity=".55" stroke-linecap="round"/>
 
-        <!-- уши -->
-        <path d="M128 80 C114 69 94 65 80 71 C69 76 72 90 86 95 C100 100 116 94 128 86 Z" fill="url(#skin)" stroke="#c99a78" stroke-width="2" stroke-linejoin="round"/>
-        <path d="M118 80 C105 73 90 71 81 76 C75 80 80 88 91 91 C102 94 112 88 118 82 Z" fill="#f6c3ba"/>
-        <path d="M192 80 C206 69 226 65 240 71 C251 76 248 90 234 95 C220 100 204 94 192 86 Z" fill="url(#skin)" stroke="#c99a78" stroke-width="2" stroke-linejoin="round"/>
-        <path d="M202 80 C215 73 230 71 239 76 C245 80 240 88 229 91 C218 94 208 88 202 82 Z" fill="#f6c3ba"/>
+        <!-- хвост -->
+        <path d="M204 294 C234 298 256 290 265 272 C272 258 272 244 266 232 C263 244 257 256 246 264 C233 273 217 280 204 283 Z" fill="#c99a56" stroke="#a97a44" stroke-width="1.5" stroke-linejoin="round"/>
+        <path d="M266 233 C263 224 268 216 276 215 C284 215 289 221 288 228 C287 234 282 238 277 237 C272 236 268 235 266 233 Z" fill="#f3e2c0" stroke="#c8a86e" stroke-width="1.4"/>
+        <path d="M271 231 C274 227 278 226 281 228" stroke="#fff8e8" stroke-width="1.3" fill="none" opacity=".8" stroke-linecap="round"/>
 
         <!-- шея -->
         <path d="M141 148 L140 181 C150 190 170 190 180 181 L179 148 Z" fill="url(#skin)"/>
@@ -328,40 +325,42 @@ button:focus-visible{outline:3px solid #d08a52;outline-offset:3px}
 
         <!-- голова -->
         <g id="headGroup" transform="translate(160 162) scale(.84) translate(-160 -168)">
-        <path d="M160 44 C194 44 217 70 217 105 C217 142 196 168 160 168 C124 168 103 142 103 105 C103 70 126 44 160 44 Z" fill="url(#skin)" stroke="#cf9f7c" stroke-width="1.2" stroke-opacity=".55"/>
+        <path d="M160 44 C196 44 216 72 214 104 C212 132 193 156 170 165 C165 167 155 167 150 165 C127 156 108 132 106 104 C104 72 124 44 160 44 Z" fill="url(#skin)" stroke="#cf9f7c" stroke-width="1.2" stroke-opacity=".55"/>
         <path d="M160 46 C186 46 205 62 212 86 C204 72 192 65 180 65 C168 65 160 71 160 71 C160 71 152 65 140 65 C128 65 116 72 108 86 C115 62 134 46 160 46 Z" fill="#e5ac8c" opacity=".22"/>
-
-        <!-- мордочка -->
-        <ellipse cx="160" cy="132" rx="19" ry="14" fill="#fff4e4" opacity=".62"/>
-        <ellipse cx="160" cy="132" rx="19" ry="14" fill="none" stroke="#f0ddc8" stroke-width="1.1" opacity=".6"/>
 
         <!-- глаза -->
         <g class="blink">
-          <ellipse cx="139" cy="106" rx="10.5" ry="12.5" fill="#fff9f2" stroke="#6b4638" stroke-width="1.7"/>
-          <circle cx="140" cy="108" r="7.6" fill="url(#iris)"/>
-          <circle cx="140" cy="108" r="3.7" fill="#2b3a2e"/>
-          <circle cx="137.2" cy="104.4" r="2.9" fill="#fff"/>
-          <circle cx="143.4" cy="112" r="1.4" fill="#fff" opacity=".9"/>
-          <path d="M128.5 99 Q139 92 150 99" stroke="#4a2f27" stroke-width="2.8" fill="none" stroke-linecap="round"/>
-          <path d="M128.5 99 L124.4 95.4 M132.4 94.8 L129.6 90.4 M137 92.6 L135.6 87.6" stroke="#4a2f27" stroke-width="2.1" fill="none" stroke-linecap="round"/>
-          <ellipse cx="181" cy="106" rx="10.5" ry="12.5" fill="#fff9f2" stroke="#6b4638" stroke-width="1.7"/>
-          <circle cx="180" cy="108" r="7.6" fill="url(#iris)"/>
-          <circle cx="180" cy="108" r="3.7" fill="#2b3a2e"/>
-          <circle cx="177.2" cy="104.4" r="2.9" fill="#fff"/>
-          <circle cx="183.4" cy="112" r="1.4" fill="#fff" opacity=".9"/>
-          <path d="M191.5 99 Q181 92 170 99" stroke="#4a2f27" stroke-width="2.8" fill="none" stroke-linecap="round"/>
-          <path d="M191.5 99 L195.6 95.4 M187.6 94.8 L190.4 90.4 M183 92.6 L184.4 87.6" stroke="#4a2f27" stroke-width="2.1" fill="none" stroke-linecap="round"/>
+          <ellipse cx="139" cy="107" rx="11.5" ry="14" fill="#fffaf4" stroke="#6b4638" stroke-width="1.5"/>
+          <ellipse cx="140" cy="109" rx="9.2" ry="11.6" fill="url(#iris)"/>
+          <ellipse cx="140" cy="113" rx="8.8" ry="6" fill="#2e4234" opacity=".5"/>
+          <circle cx="140" cy="108" r="4.4" fill="#25342a"/>
+          <circle cx="136.2" cy="103.2" r="3.6" fill="#fff"/>
+          <circle cx="145.6" cy="113.4" r="1.7" fill="#fff" opacity=".9"/>
+          <path d="M135 116 Q140 118 145 116" stroke="#fff" stroke-width="1.8" opacity=".55" fill="none" stroke-linecap="round"/>
+          <path d="M127 99 Q139 90 151 99" stroke="#4a2f27" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+          <path d="M151 99 L156 94.5" stroke="#4a2f27" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+          <path d="M127 99 L122.5 95" stroke="#4a2f27" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+          <ellipse cx="181" cy="107" rx="11.5" ry="14" fill="#fffaf4" stroke="#6b4638" stroke-width="1.5"/>
+          <ellipse cx="180" cy="109" rx="9.2" ry="11.6" fill="url(#iris)"/>
+          <ellipse cx="180" cy="113" rx="8.8" ry="6" fill="#2e4234" opacity=".5"/>
+          <circle cx="180" cy="108" r="4.4" fill="#25342a"/>
+          <circle cx="176.2" cy="103.2" r="3.6" fill="#fff"/>
+          <circle cx="185.6" cy="113.4" r="1.7" fill="#fff" opacity=".9"/>
+          <path d="M175 116 Q180 118 185 116" stroke="#fff" stroke-width="1.8" opacity=".55" fill="none" stroke-linecap="round"/>
+          <path d="M193 99 Q181 90 169 99" stroke="#4a2f27" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+          <path d="M169 99 L164 94.5" stroke="#4a2f27" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+          <path d="M193 99 L197.5 95" stroke="#4a2f27" stroke-width="2.6" fill="none" stroke-linecap="round"/>
         </g>
-        <path d="M130 88 Q139 84 148 88 M172 88 Q181 84 190 88" stroke="#b9854f" stroke-width="1.9" fill="none" stroke-linecap="round" opacity=".7"/>
-        <ellipse cx="122" cy="125" rx="7" ry="4" fill="#f2a49a" opacity=".38"/>
-        <ellipse cx="198" cy="125" rx="7" ry="4" fill="#f2a49a" opacity=".38"/>
+        <path d="M129 85 Q139 80 149 84 M171 84 Q181 80 191 85" stroke="#b9854f" stroke-width="1.8" fill="none" stroke-linecap="round" opacity=".75"/>
+        <path d="M122 121 l6 -3 M123 125 l6 -3 M198 121 l-6 -3 M197 125 l-6 -3" stroke="#ee9a8e" stroke-width="1.6" stroke-linecap="round" opacity=".55"/>
+        <ellipse cx="124" cy="123" rx="7" ry="3.6" fill="#f2a49a" opacity=".26"/>
+        <ellipse cx="196" cy="123" rx="7" ry="3.6" fill="#f2a49a" opacity=".26"/>
 
         <!-- нос и улыбка -->
-        <ellipse cx="160" cy="123" rx="4.4" ry="3.3" fill="#e79b90"/>
-        <ellipse cx="158.6" cy="122.2" rx="1" ry="1.4" fill="#b96f68"/><ellipse cx="161.4" cy="122.2" rx="1" ry="1.4" fill="#b96f68"/>
-        <path d="M151 135 Q160 146 169 135 Q160 140 151 135 Z" fill="#c06464" stroke="#8f4a46" stroke-width="1.1"/>
-        <path d="M154 137 Q160 142 166 137 Q160 139 154 137 Z" fill="#f7d9d2" opacity=".8"/>
-        <path d="M150 134 Q160 151 170 134" stroke="#a85a55" stroke-width="1" fill="none" opacity=".35"/>
+        <path d="M158 122 Q160 124.5 162 122" stroke="#d68f80" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+        <path d="M153 133 Q160 141 167 133 Q160 136.5 153 133 Z" fill="#c76a6a" stroke="#8f4a46" stroke-width="1"/>
+        <path d="M155.5 135 Q160 138 164.5 135 Q160 136.6 155.5 135 Z" fill="#f7d9d2" opacity=".85"/>
+        <path d="M150 132 Q160 147 170 132" stroke="#a85a55" stroke-width="1" fill="none" opacity=".3"/>
 
         <!-- передние волосы -->
         <path d="M103 106 C101 72 126 44 160 44 C194 44 219 72 217 106 C209 88 197 76 183 73 C177 84 169 89 160 89 C150 89 142 82 138 73 C124 77 112 88 103 106 Z" fill="url(#hair)" stroke="#c99a5c" stroke-opacity=".4" stroke-width="1.4"/>
@@ -369,6 +368,7 @@ button:focus-visible{outline:3px solid #d08a52;outline-offset:3px}
         <path d="M104 95 C99 122 100 148 95 175 C103 179 112 173 113 161 C114 139 112 116 115 100 Z" fill="url(#hair)"/>
         <path d="M216 95 C221 122 220 148 225 175 C217 179 208 173 207 161 C206 139 208 116 205 100 Z" fill="url(#hair)"/>
         <path d="M108 118 C105 140 105 158 101 172 M212 118 C215 140 215 158 219 172" stroke="#c99a5c" stroke-width="1.6" fill="none" opacity=".5"/>
+        <path d="M156 46 C149 36 151 23 162 19 C157 27 157 38 162 46 Z" fill="url(#hair)" stroke="#c99a5c" stroke-opacity=".4" stroke-width="1.2"/>
 
         <!-- косичка -->
         <g fill="url(#hair)" stroke="#c99a5c" stroke-opacity=".4" stroke-width="1.2">
@@ -499,7 +499,7 @@ function render(){
   $('barnBtn').disabled=s.coins<45||s.barn;$('barnBtn').textContent=s.barn?'Улучшено ✓':'Улучшить · 45 🪙';
   $('log').innerHTML=s.log.map(x=>`<p>• ${x}</p>`).join('');
   $('goal').textContent=s.earnedToday>=20?'Цель дня ✓':`Цель: 20 🪙 (${s.earnedToday}/20)`;
-  const bs=1.1+Math.min(.22,(s.level-1)*.05);
+  const bs=1.12+Math.min(.2,(s.level-1)*.05);
   $('bustGroup').setAttribute('transform',`translate(160 232) scale(${bs} ${1+(bs-1)*.5}) translate(-160 -232)`);
   save();
 }
